@@ -7,7 +7,7 @@ import Listing from "@/components/listing";
 import Listing2 from "@/components/listings2";
 import Style from "@/components/style";
 import TopHeader from "@/components/Topheader";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 const Listing = () => {
   return (
@@ -11,32 +12,32 @@ const Listing = () => {
       <div className='flex flex-wrap justify-center items-center gap-5 sm:gap-8 md:gap-10'>
         {/* Product 1 */}
         <div className='flex flex-col items-center'>
-          <img src="Frame 32.png" alt="Product 1" className="w-full h-auto" />
-          <img src="Frame 35.png" alt="Product 1" className="w-full h-auto mt-3" />
+          <Image width={200} height={200} src="/Frame 32.png" alt="Product 1" className="w-full h-auto" />
+          <Image width={200} height={200} src="/Frame 35.png" alt="Product 1" className="w-full h-auto mt-3" />
           <p className='mt-4 text-lg sm:text-xl font-medium text-center'>T-SHIRT WITH TAPE DETAILS</p>
           <span className='mt-2 text-lg font-semibold'>$120</span>
         </div>
 
         {/* Product 2 */}
         <div className='flex flex-col items-center'>
-          <img src="Frame 33.png" alt="Product 2" className="w-full h-auto" />
-          <img src="Frame 39.png" alt="Product 2" className="w-full h-auto mt-3" />
+          <Image width={200} height={200} src="/Frame 33.png" alt="Product 2" className="w-full h-auto" />
+          <Image width={200} height={200} src="/Frame 39.png" alt="Product 2" className="w-full h-auto mt-3" />
           <p className='mt-4 text-lg sm:text-xl font-medium text-center'>T-SHIRT WITH TAPE DETAILS</p>
           <span className='mt-2 text-lg font-semibold'>$120</span>
         </div>
 
         {/* Product 3 */}
         <div className='flex flex-col items-center'>
-          <img src="Frame 34.png" alt="Product 3" className="w-full h-auto" />
-          <img src="Frame 40.png" alt="Product 3" className="w-full h-auto mt-3" />
+          <Image width={200} height={200} src="/Frame 34.png" alt="Product 3" className="w-full h-auto" />
+          <Image width={200} height={200} src="/Frame 40.png" alt="Product 3" className="w-full h-auto mt-3" />
           <p className='mt-4 text-lg sm:text-xl font-medium text-center'>T-SHIRT WITH TAPE DETAILS</p>
           <span className='mt-2 text-lg font-semibold'>$120</span>
         </div>
 
         {/* Product 4 */}
         <div className='flex flex-col items-center'>
-          <img src="Frame 38.png" alt="Product 4" className="w-full h-auto" />
-          <img src="Frame 44.png" alt="Product 4" className="w-full h-auto mt-3" />
+          <Image width={200} height={200} src="/Frame 38.png" alt="Product 4" className="w-full h-auto" />
+          <Image width={200} height={200} src="/Frame 44.png" alt="Product 4" className="w-full h-auto mt-3" />
           <p className='mt-4 text-lg sm:text-xl font-medium text-center'>T-SHIRT WITH TAPE DETAILS</p>
           <span className='mt-2 text-lg font-semibold'>$120</span>
         </div>

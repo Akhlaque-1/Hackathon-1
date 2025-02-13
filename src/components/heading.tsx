@@ -32,7 +32,7 @@ import React from 'react';
 
 const Heading = () => {
   return (
-    <div>
+    <div className=''>
       <div className="w-full h-[122px] flex bg-[#000000] justify-evenly items-center text-[#F5F5F5] mt-4">
         <p className="font-serif text-lg">VERSACE</p> {/* Example: Serif font */}
         <p className="font-sans text-xl">ZARA</p> {/* Example: Sans-serif font */}

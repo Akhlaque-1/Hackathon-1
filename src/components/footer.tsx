@@ -1,6 +1,6 @@
 import React from "react";
-import { LuSendHorizontal } from "react-icons/lu";
 import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
 
 const Footer: React.FC = () => {
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
 
       {/* Footer Bottom */}
       <div className="text-center text-sm text-gray-500 mt-8">
-      <img src="Frame 53.png" alt="" className="ml-[900px]" />
+      <Image src="/Frame 53.png" alt="" className="ml-[900px]" width={200} height={200} />
        
       </div>
       © {new Date().getFullYear()} SHOP.CO @2000-2023.All Rights Reserved

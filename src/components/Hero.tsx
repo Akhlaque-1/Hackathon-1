@@ -2,7 +2,7 @@
 import Image from "next/image";
 export default function Hero() {
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div className="max-w-screen-xl mx-auto px-4 cursor-pointer">
       <div className="flex flex-wrap items-center">
         {/* Left Section */}
         <div className="w-full md:w-1/2 mt-12">
@@ -21,12 +21,12 @@ export default function Hero() {
         <div className="w-full md:w-1/2 flex justify-center items-center mt-9">
           <div className="relative w-full max-w-md">
             <Image
-              src="/Vector 3.png"
+              src="/Vector3.png"
               alt="Fashion Image"
               layout="responsive"
               width={500}
               height={500}
-              objectFit="contain"
+              //objectFit="contain"
               className="rounded-lg shadow-md"
             />
           </div>
